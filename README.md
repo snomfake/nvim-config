@@ -7,7 +7,7 @@
 
 <br>
 
-<p align="center">This is just my little config for nvim for Python development</p>
+<p align="center">This is my minimalistic Neovim configuration for Python development</p>
 
 ## :camera: Gallery
 
@@ -39,7 +39,11 @@
 ## :floppy_disk: Installation
 
 ```bash
-rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
+rm -rf ~/.config/nvim
+rm -rf ~/.local/share/nvim
+rm -rf ~/.local/state/nvim
+rm -rf ~/.cache/nvim
+mkdir -p .config/nvim
 git clone https://github.com/snomfake/nvim-config.git ~/.config/nvim
 nvim -c "MasonInstall jedi-language-server ruff-lsp black"
 nvim
