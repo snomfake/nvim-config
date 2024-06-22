@@ -1,11 +1,13 @@
-# :star2: Nvim Dotfiles :star2:
+<h1 align="center">:star2: Nvim Dotfiles :star2:</h1>
 
 <p align="center">
   <img src="https://img.shields.io/github/repo-size/snomfake/bspwm-dotfiles?style=for-the-badge">
   </br>
 </p>
 
-This is just my little config for nvim for Python development
+<br>
+
+<p align="center">This is just my little config for nvim for Python development</p>
 
 ## :camera: Gallery
 
